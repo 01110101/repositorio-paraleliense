@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Diary</string>
+    <string name="action_settings">Settings</string>
+    <string name="hola_mundo">¡Hola paralelienses!</string>
+    <string name="presentacion">Esto es una pequeña muestra de cómo quedaría una agenda simple desarrollada en Android.</string>
+    <string name="instrucciones">Para empezar, rellena los siguientes campos:</string>
+    <string name="usuariofp">Zox09</string>
+    <string name="botonadd">Añadir contacto</string>
+    <string name="title_activity_contacto_final">Lista de contacto</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

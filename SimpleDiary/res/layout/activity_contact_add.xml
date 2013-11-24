@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ContactAdd" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hola_mundo" />
+
+    <TextView
+        android:id="@+id/presentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="@string/presentacion" />
+
+    <TextView
+        android:id="@+id/instrucciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/presentacion"
+        android:layout_below="@+id/presentacion"
+        android:text="@string/instrucciones" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/instrucciones"
+        android:layout_alignRight="@+id/instrucciones"
+        android:layout_below="@+id/instrucciones"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nombre"
+		>
+		
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignRight="@+id/nombre"
+        android:layout_below="@+id/nombre"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Apellidos" />
+
+    <EditText
+        android:id="@+id/numeroTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/apellidos"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Nº de teléfono" />
+
+    <TextView
+        android:id="@+id/usuarioFP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/apellidos"
+        android:layout_marginBottom="26dp"
+        android:text="@string/usuariofp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/usuarioFP"
+        android:layout_alignLeft="@+id/numeroTelefono"
+        android:text="@string/botonadd" />
+
+</RelativeLayout>
