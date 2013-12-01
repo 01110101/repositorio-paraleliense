@@ -4,4 +4,4 @@ Shurs, aquí podéis poner todo lo que vayáis haciendo para ir aprendiendo entr
 
 Además podemos ayudaros a solucionar errores.
 
-hola
+hola xd
